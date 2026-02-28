@@ -1,0 +1,382 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "AppEntry instances can only be retrieved from an AppDb"
+                }
+            ],
+            "className": "AppEntry",
+            "lineNumber": 12,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 18,
+                    "name": "entry",
+                    "read": "entry",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QObject*",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 20,
+                    "name": "frequency",
+                    "notify": "frequencyChanged",
+                    "read": "frequency",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "quint32",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 21,
+                    "name": "id",
+                    "read": "id",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 22,
+                    "name": "name",
+                    "notify": "nameChanged",
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 23,
+                    "name": "comment",
+                    "notify": "commentChanged",
+                    "read": "comment",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 24,
+                    "name": "execString",
+                    "notify": "execStringChanged",
+                    "read": "execString",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "lineNumber": 25,
+                    "name": "startupClass",
+                    "notify": "startupClassChanged",
+                    "read": "startupClass",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "lineNumber": 26,
+                    "name": "genericName",
+                    "notify": "genericNameChanged",
+                    "read": "genericName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 8,
+                    "lineNumber": 27,
+                    "name": "categories",
+                    "notify": "categoriesChanged",
+                    "read": "categories",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 9,
+                    "lineNumber": 28,
+                    "name": "keywords",
+                    "notify": "keywordsChanged",
+                    "read": "keywords",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::AppEntry",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 49,
+                    "name": "frequencyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 50,
+                    "name": "nameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 51,
+                    "name": "commentChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 52,
+                    "name": "execStringChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 53,
+                    "name": "startupClassChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 54,
+                    "name": "genericNameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 55,
+                    "name": "categoriesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 56,
+                    "name": "keywordsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "AppDb",
+            "lineNumber": 63,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 89,
+                    "name": "incrementFrequency",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 67,
+                    "name": "uuid",
+                    "read": "uuid",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 68,
+                    "name": "path",
+                    "notify": "pathChanged",
+                    "read": "path",
+                    "required": true,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPath"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 69,
+                    "name": "entries",
+                    "notify": "entriesChanged",
+                    "read": "entries",
+                    "required": true,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QObjectList",
+                    "user": false,
+                    "write": "setEntries"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 70,
+                    "name": "favouriteApps",
+                    "notify": "favouriteAppsChanged",
+                    "read": "favouriteApps",
+                    "required": true,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false,
+                    "write": "setFavouriteApps"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 71,
+                    "name": "apps",
+                    "notify": "appsChanged",
+                    "read": "apps",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQmlListProperty<caelestia::AppEntry>",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::AppDb",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 92,
+                    "name": "pathChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 93,
+                    "name": "entriesChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 94,
+                    "name": "favouriteAppsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 95,
+                    "name": "appsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "appdb.hpp",
+    "outputRevision": 69
+}

@@ -1,0 +1,6 @@
+/home/yora/caelestia-wallpaper-selector/build/caelestia-root_autogen/include/../G2BDYLOOCE/moc_appdb.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-root_autogen/include/../G2BDYLOOCE/moc_cutils.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-root_autogen/include/../G2BDYLOOCE/moc_imageanalyser.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-root_autogen/include/../G2BDYLOOCE/moc_qalculator.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-root_autogen/include/../G2BDYLOOCE/moc_requests.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-root_autogen/include/../G2BDYLOOCE/moc_toaster.cpp.json

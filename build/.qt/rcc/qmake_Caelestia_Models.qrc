@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Caelestia/Models">
+    <file alias="qmldir">/home/yora/caelestia-wallpaper-selector/build/qml/Caelestia/Models/qmldir</file>
+  </qresource>
+</RCC>
+

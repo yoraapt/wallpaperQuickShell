@@ -1,0 +1,150 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "ImageAnalyser",
+            "lineNumber": 11,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 36,
+                    "name": "requestUpdate",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 15,
+                    "name": "source",
+                    "notify": "sourceChanged",
+                    "read": "source",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setSource"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 16,
+                    "name": "sourceItem",
+                    "notify": "sourceItemChanged",
+                    "read": "sourceItem",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQuickItem*",
+                    "user": false,
+                    "write": "setSourceItem"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 17,
+                    "name": "rescaleSize",
+                    "notify": "rescaleSizeChanged",
+                    "read": "rescaleSize",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setRescaleSize"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 18,
+                    "name": "dominantColour",
+                    "notify": "dominantColourChanged",
+                    "read": "dominantColour",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QColor",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 19,
+                    "name": "luminance",
+                    "notify": "luminanceChanged",
+                    "read": "luminance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "qreal",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::ImageAnalyser",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 39,
+                    "name": "sourceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 40,
+                    "name": "sourceItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 41,
+                    "name": "rescaleSizeChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 42,
+                    "name": "dominantColourChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 43,
+                    "name": "luminanceChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "imageanalyser.hpp",
+    "outputRevision": 69
+}

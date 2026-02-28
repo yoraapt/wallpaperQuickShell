@@ -1,0 +1,13 @@
+--bare
+-I
+/home/yora/caelestia-wallpaper-selector/build/qml
+-I
+/home/yora/caelestia-wallpaper-selector/build/qml/Caelestia/Internal
+-I
+/home/yora/caelestia-wallpaper-selector/build/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/yora/caelestia-wallpaper-selector/build/.qt/rcc/qmake_Caelestia_Internal.qrc
+--json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-internal_qmllint.json

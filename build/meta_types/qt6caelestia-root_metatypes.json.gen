@@ -1,0 +1,1234 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Creatable",
+                        "value": "false"
+                    },
+                    {
+                        "name": "QML.UncreatableReason",
+                        "value": "AppEntry instances can only be retrieved from an AppDb"
+                    }
+                ],
+                "className": "AppEntry",
+                "lineNumber": 12,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 18,
+                        "name": "entry",
+                        "read": "entry",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QObject*",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 20,
+                        "name": "frequency",
+                        "notify": "frequencyChanged",
+                        "read": "frequency",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "quint32",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 21,
+                        "name": "id",
+                        "read": "id",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 22,
+                        "name": "name",
+                        "notify": "nameChanged",
+                        "read": "name",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 23,
+                        "name": "comment",
+                        "notify": "commentChanged",
+                        "read": "comment",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 24,
+                        "name": "execString",
+                        "notify": "execStringChanged",
+                        "read": "execString",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 25,
+                        "name": "startupClass",
+                        "notify": "startupClassChanged",
+                        "read": "startupClass",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 26,
+                        "name": "genericName",
+                        "notify": "genericNameChanged",
+                        "read": "genericName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "lineNumber": 27,
+                        "name": "categories",
+                        "notify": "categoriesChanged",
+                        "read": "categories",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "lineNumber": 28,
+                        "name": "keywords",
+                        "notify": "keywordsChanged",
+                        "read": "keywords",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::AppEntry",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 49,
+                        "name": "frequencyChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 50,
+                        "name": "nameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 51,
+                        "name": "commentChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 52,
+                        "name": "execStringChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 53,
+                        "name": "startupClassChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 54,
+                        "name": "genericNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 55,
+                        "name": "categoriesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 56,
+                        "name": "keywordsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "AppDb",
+                "lineNumber": 63,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 89,
+                        "name": "incrementFrequency",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 67,
+                        "name": "uuid",
+                        "read": "uuid",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 68,
+                        "name": "path",
+                        "notify": "pathChanged",
+                        "read": "path",
+                        "required": true,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setPath"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 69,
+                        "name": "entries",
+                        "notify": "entriesChanged",
+                        "read": "entries",
+                        "required": true,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QObjectList",
+                        "user": false,
+                        "write": "setEntries"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 70,
+                        "name": "favouriteApps",
+                        "notify": "favouriteAppsChanged",
+                        "read": "favouriteApps",
+                        "required": true,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false,
+                        "write": "setFavouriteApps"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 71,
+                        "name": "apps",
+                        "notify": "appsChanged",
+                        "read": "apps",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QQmlListProperty<caelestia::AppEntry>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::AppDb",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 92,
+                        "name": "pathChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 93,
+                        "name": "entriesChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 94,
+                        "name": "favouriteAppsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 95,
+                        "name": "appsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "appdb.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "CUtils",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "target",
+                                "type": "QQuickItem*"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 16,
+                        "name": "saveItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "target",
+                                "type": "QQuickItem*"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "rect",
+                                "type": "QRect"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 17,
+                        "name": "saveItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "target",
+                                "type": "QQuickItem*"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "onSaved",
+                                "type": "QJSValue"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 18,
+                        "name": "saveItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "target",
+                                "type": "QQuickItem*"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "onSaved",
+                                "type": "QJSValue"
+                            },
+                            {
+                                "name": "onFailed",
+                                "type": "QJSValue"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 19,
+                        "name": "saveItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "target",
+                                "type": "QQuickItem*"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "rect",
+                                "type": "QRect"
+                            },
+                            {
+                                "name": "onSaved",
+                                "type": "QJSValue"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 20,
+                        "name": "saveItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "target",
+                                "type": "QQuickItem*"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "rect",
+                                "type": "QRect"
+                            },
+                            {
+                                "name": "onSaved",
+                                "type": "QJSValue"
+                            },
+                            {
+                                "name": "onFailed",
+                                "type": "QJSValue"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 21,
+                        "name": "saveItem",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "source",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "target",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "overwrite",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 6,
+                        "isConst": true,
+                        "lineNumber": 24,
+                        "name": "copyFile",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "source",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "target",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 7,
+                        "isCloned": true,
+                        "isConst": true,
+                        "lineNumber": 24,
+                        "name": "copyFile",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 8,
+                        "isConst": true,
+                        "lineNumber": 25,
+                        "name": "deleteFile",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "url",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 9,
+                        "isConst": true,
+                        "lineNumber": 26,
+                        "name": "toLocalFile",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "caelestia::CUtils",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cutils.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "ImageAnalyser",
+                "lineNumber": 11,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 36,
+                        "name": "requestUpdate",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 15,
+                        "name": "source",
+                        "notify": "sourceChanged",
+                        "read": "source",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setSource"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 16,
+                        "name": "sourceItem",
+                        "notify": "sourceItemChanged",
+                        "read": "sourceItem",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QQuickItem*",
+                        "user": false,
+                        "write": "setSourceItem"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 17,
+                        "name": "rescaleSize",
+                        "notify": "rescaleSizeChanged",
+                        "read": "rescaleSize",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setRescaleSize"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 18,
+                        "name": "dominantColour",
+                        "notify": "dominantColourChanged",
+                        "read": "dominantColour",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QColor",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 19,
+                        "name": "luminance",
+                        "notify": "luminanceChanged",
+                        "read": "luminance",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::ImageAnalyser",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 39,
+                        "name": "sourceChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 40,
+                        "name": "sourceItemChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 41,
+                        "name": "rescaleSizeChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 42,
+                        "name": "dominantColourChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 43,
+                        "name": "luminanceChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "imageanalyser.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "Qalculator",
+                "lineNumber": 8,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "expr",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "printExpr",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "isConst": true,
+                        "lineNumber": 16,
+                        "name": "eval",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "expr",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "isCloned": true,
+                        "isConst": true,
+                        "lineNumber": 16,
+                        "name": "eval",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "caelestia::Qalculator",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "qalculator.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "Requests",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "url",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "callback",
+                                "type": "QJSValue"
+                            },
+                            {
+                                "name": "onError",
+                                "type": "QJSValue"
+                            }
+                        ],
+                        "index": 0,
+                        "isConst": true,
+                        "lineNumber": 17,
+                        "name": "get",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "url",
+                                "type": "QUrl"
+                            },
+                            {
+                                "name": "callback",
+                                "type": "QJSValue"
+                            }
+                        ],
+                        "index": 1,
+                        "isCloned": true,
+                        "isConst": true,
+                        "lineNumber": 17,
+                        "name": "get",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "caelestia::Requests",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "requests.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Creatable",
+                        "value": "false"
+                    },
+                    {
+                        "name": "QML.UncreatableReason",
+                        "value": "Toast instances can only be retrieved from a Toaster"
+                    }
+                ],
+                "className": "Toast",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "lineNumber": 23,
+                        "name": "Type",
+                        "values": [
+                            "Info",
+                            "Success",
+                            "Warning",
+                            "Error"
+                        ]
+                    }
+                ],
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 41,
+                        "name": "close",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sender",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 42,
+                        "name": "lock",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "sender",
+                                "type": "QObject*"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 43,
+                        "name": "unlock",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 15,
+                        "name": "closed",
+                        "notify": "closedChanged",
+                        "read": "closed",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 16,
+                        "name": "title",
+                        "read": "title",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 17,
+                        "name": "message",
+                        "read": "message",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 18,
+                        "name": "icon",
+                        "read": "icon",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 19,
+                        "name": "timeout",
+                        "read": "timeout",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 20,
+                        "name": "type",
+                        "read": "type",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "Type",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::Toast",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 46,
+                        "name": "closedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 47,
+                        "name": "finishedClose",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Singleton",
+                        "value": "true"
+                    }
+                ],
+                "className": "Toaster",
+                "lineNumber": 60,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "icon",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "type",
+                                "type": "caelestia::Toast::Type"
+                            },
+                            {
+                                "name": "timeout",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 72,
+                        "name": "toast",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "icon",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "type",
+                                "type": "caelestia::Toast::Type"
+                            }
+                        ],
+                        "index": 2,
+                        "isCloned": true,
+                        "lineNumber": 72,
+                        "name": "toast",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "icon",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "isCloned": true,
+                        "lineNumber": 72,
+                        "name": "toast",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "title",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 4,
+                        "isCloned": true,
+                        "lineNumber": 72,
+                        "name": "toast",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 65,
+                        "name": "toasts",
+                        "notify": "toastsChanged",
+                        "read": "toasts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QQmlListProperty<caelestia::Toast>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::Toaster",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 76,
+                        "name": "toastsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "toaster.hpp",
+        "outputRevision": 69
+    }
+]

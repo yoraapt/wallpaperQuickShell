@@ -1,0 +1,5 @@
+/home/yora/caelestia-wallpaper-selector/build/caelestia-internal_autogen/include/../WU6BF23EZI/moc_cachingimagemanager.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-internal_autogen/include/../WU6BF23EZI/moc_circularindicatormanager.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-internal_autogen/include/../WU6BF23EZI/moc_hyprdevices.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-internal_autogen/include/../WU6BF23EZI/moc_hyprextras.cpp.json
+/home/yora/caelestia-wallpaper-selector/build/caelestia-internal_autogen/include/../WU6BF23EZI/moc_logindmanager.cpp.json

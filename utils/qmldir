@@ -1,0 +1,4 @@
+module qs.utils
+
+singleton Paths 1.0 Paths.qml
+Searcher 1.0 Searcher.qml

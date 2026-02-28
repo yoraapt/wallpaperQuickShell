@@ -1,0 +1,171 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "CachingImageManager",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 39,
+                    "name": "updateSource",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 40,
+                    "name": "updateSource",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 13,
+                    "name": "item",
+                    "notify": "itemChanged",
+                    "read": "item",
+                    "required": true,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQuickItem*",
+                    "user": false,
+                    "write": "setItem"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 14,
+                    "name": "cacheDir",
+                    "notify": "cacheDirChanged",
+                    "read": "cacheDir",
+                    "required": true,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QUrl",
+                    "user": false,
+                    "write": "setCacheDir"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 16,
+                    "name": "path",
+                    "notify": "pathChanged",
+                    "read": "path",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPath"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 17,
+                    "name": "cachePath",
+                    "notify": "cachePathChanged",
+                    "read": "cachePath",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QUrl",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 18,
+                    "name": "warmOnly",
+                    "notify": "warmOnlyChanged",
+                    "read": "warmOnly",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setWarmOnly"
+                }
+            ],
+            "qualifiedClassName": "caelestia::internal::CachingImageManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 43,
+                    "name": "itemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 44,
+                    "name": "cacheDirChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 46,
+                    "name": "pathChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 47,
+                    "name": "cachePathChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 48,
+                    "name": "usingCacheChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 49,
+                    "name": "warmOnlyChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "cachingimagemanager.hpp",
+    "outputRevision": 69
+}

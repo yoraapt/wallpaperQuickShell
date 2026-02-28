@@ -1,0 +1,12 @@
+-I
+/home/yora/caelestia-wallpaper-selector/build/qml
+-I
+/home/yora/caelestia-wallpaper-selector/build/qml/Caelestia/Models
+-I
+/home/yora/caelestia-wallpaper-selector/build/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/yora/caelestia-wallpaper-selector/build/.qt/rcc/qmake_Caelestia_Models.qrc
+--module
+Caelestia.Models

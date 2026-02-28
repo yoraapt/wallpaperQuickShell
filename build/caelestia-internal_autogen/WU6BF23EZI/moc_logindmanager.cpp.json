@@ -1,0 +1,83 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "LogindManager",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "caelestia::internal::LogindManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 16,
+                    "name": "aboutToSleep",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 17,
+                    "name": "resumed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 18,
+                    "name": "lockRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 19,
+                    "name": "unlockRequested",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "sleep",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 22,
+                    "name": "handlePrepareForSleep",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "lineNumber": 23,
+                    "name": "handleLockRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "lineNumber": 24,
+                    "name": "handleUnlockRequested",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "logindmanager.hpp",
+    "outputRevision": 69
+}

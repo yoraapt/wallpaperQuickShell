@@ -1,0 +1,119 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "HyprExtras",
+            "lineNumber": 10,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 23,
+                    "name": "message",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "messages",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 24,
+                    "name": "batchMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "options",
+                            "type": "QVariantHash"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 25,
+                    "name": "applyOptions",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 27,
+                    "name": "refreshOptions",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 28,
+                    "name": "refreshDevices",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 14,
+                    "name": "options",
+                    "notify": "optionsChanged",
+                    "read": "options",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariantHash",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 15,
+                    "name": "devices",
+                    "read": "devices",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "caelestia::internal::hypr::HyprDevices*",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::internal::hypr::HyprExtras",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 31,
+                    "name": "optionsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "hyprextras.hpp",
+    "outputRevision": 69
+}

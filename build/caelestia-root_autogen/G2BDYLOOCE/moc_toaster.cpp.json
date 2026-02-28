@@ -1,0 +1,329 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "Toast instances can only be retrieved from a Toaster"
+                }
+            ],
+            "className": "Toast",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "lineNumber": 23,
+                    "name": "Type",
+                    "values": [
+                        "Info",
+                        "Success",
+                        "Warning",
+                        "Error"
+                    ]
+                }
+            ],
+            "lineNumber": 10,
+            "methods": [
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 41,
+                    "name": "close",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sender",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 42,
+                    "name": "lock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "sender",
+                            "type": "QObject*"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 43,
+                    "name": "unlock",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 15,
+                    "name": "closed",
+                    "notify": "closedChanged",
+                    "read": "closed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "lineNumber": 16,
+                    "name": "title",
+                    "read": "title",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "lineNumber": 17,
+                    "name": "message",
+                    "read": "message",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "lineNumber": 18,
+                    "name": "icon",
+                    "read": "icon",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "lineNumber": 19,
+                    "name": "timeout",
+                    "read": "timeout",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "lineNumber": 20,
+                    "name": "type",
+                    "read": "type",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "Type",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::Toast",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 46,
+                    "name": "closedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 47,
+                    "name": "finishedClose",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        },
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "Toaster",
+            "lineNumber": 60,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "type",
+                            "type": "caelestia::Toast::Type"
+                        },
+                        {
+                            "name": "timeout",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 72,
+                    "name": "toast",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "type",
+                            "type": "caelestia::Toast::Type"
+                        }
+                    ],
+                    "index": 2,
+                    "isCloned": true,
+                    "lineNumber": 72,
+                    "name": "toast",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "icon",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "isCloned": true,
+                    "lineNumber": 72,
+                    "name": "toast",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "isCloned": true,
+                    "lineNumber": 72,
+                    "name": "toast",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "lineNumber": 65,
+                    "name": "toasts",
+                    "notify": "toastsChanged",
+                    "read": "toasts",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QQmlListProperty<caelestia::Toast>",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "caelestia::Toaster",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 76,
+                    "name": "toastsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "toaster.hpp",
+    "outputRevision": 69
+}

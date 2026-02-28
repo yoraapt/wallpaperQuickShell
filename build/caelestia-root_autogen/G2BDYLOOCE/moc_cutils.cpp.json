@@ -1,0 +1,237 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Singleton",
+                    "value": "true"
+                }
+            ],
+            "className": "CUtils",
+            "lineNumber": 9,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "target",
+                            "type": "QQuickItem*"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 16,
+                    "name": "saveItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "target",
+                            "type": "QQuickItem*"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 17,
+                    "name": "saveItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "target",
+                            "type": "QQuickItem*"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "onSaved",
+                            "type": "QJSValue"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 18,
+                    "name": "saveItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "target",
+                            "type": "QQuickItem*"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "onSaved",
+                            "type": "QJSValue"
+                        },
+                        {
+                            "name": "onFailed",
+                            "type": "QJSValue"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 19,
+                    "name": "saveItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "target",
+                            "type": "QQuickItem*"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        },
+                        {
+                            "name": "onSaved",
+                            "type": "QJSValue"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 20,
+                    "name": "saveItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "target",
+                            "type": "QQuickItem*"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "rect",
+                            "type": "QRect"
+                        },
+                        {
+                            "name": "onSaved",
+                            "type": "QJSValue"
+                        },
+                        {
+                            "name": "onFailed",
+                            "type": "QJSValue"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 21,
+                    "name": "saveItem",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "source",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "target",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "overwrite",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 6,
+                    "isConst": true,
+                    "lineNumber": 24,
+                    "name": "copyFile",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "source",
+                            "type": "QUrl"
+                        },
+                        {
+                            "name": "target",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 7,
+                    "isCloned": true,
+                    "isConst": true,
+                    "lineNumber": 24,
+                    "name": "copyFile",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "path",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 8,
+                    "isConst": true,
+                    "lineNumber": 25,
+                    "name": "deleteFile",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "url",
+                            "type": "QUrl"
+                        }
+                    ],
+                    "index": 9,
+                    "isConst": true,
+                    "lineNumber": 26,
+                    "name": "toLocalFile",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "caelestia::CUtils",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "cutils.hpp",
+    "outputRevision": 69
+}

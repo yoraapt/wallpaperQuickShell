@@ -1,0 +1,3 @@
+module qs.components.controls
+
+StyledTextField 1.0 StyledTextField.qml

@@ -1,0 +1,844 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "CachingImageManager",
+                "lineNumber": 9,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 39,
+                        "name": "updateSource",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 40,
+                        "name": "updateSource",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 13,
+                        "name": "item",
+                        "notify": "itemChanged",
+                        "read": "item",
+                        "required": true,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QQuickItem*",
+                        "user": false,
+                        "write": "setItem"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 14,
+                        "name": "cacheDir",
+                        "notify": "cacheDirChanged",
+                        "read": "cacheDir",
+                        "required": true,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false,
+                        "write": "setCacheDir"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 16,
+                        "name": "path",
+                        "notify": "pathChanged",
+                        "read": "path",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setPath"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 17,
+                        "name": "cachePath",
+                        "notify": "cachePathChanged",
+                        "read": "cachePath",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QUrl",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 18,
+                        "name": "warmOnly",
+                        "notify": "warmOnlyChanged",
+                        "read": "warmOnly",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setWarmOnly"
+                    }
+                ],
+                "qualifiedClassName": "caelestia::internal::CachingImageManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 43,
+                        "name": "itemChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 44,
+                        "name": "cacheDirChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 46,
+                        "name": "pathChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 47,
+                        "name": "cachePathChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 48,
+                        "name": "usingCacheChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 49,
+                        "name": "warmOnlyChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cachingimagemanager.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "CircularIndicatorManager",
+                "enums": [
+                    {
+                        "isClass": false,
+                        "isFlag": false,
+                        "lineNumber": 27,
+                        "name": "IndeterminateAnimationType",
+                        "values": [
+                            "Advance",
+                            "Retreat"
+                        ]
+                    }
+                ],
+                "lineNumber": 9,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 13,
+                        "name": "startFraction",
+                        "notify": "startFractionChanged",
+                        "read": "startFraction",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 14,
+                        "name": "endFraction",
+                        "notify": "endFractionChanged",
+                        "read": "endFraction",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 15,
+                        "name": "rotation",
+                        "notify": "rotationChanged",
+                        "read": "rotation",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 16,
+                        "name": "progress",
+                        "notify": "progressChanged",
+                        "read": "progress",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false,
+                        "write": "setProgress"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 17,
+                        "name": "completeEndProgress",
+                        "notify": "completeEndProgressChanged",
+                        "read": "completeEndProgress",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false,
+                        "write": "setCompleteEndProgress"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 19,
+                        "name": "duration",
+                        "notify": "indeterminateAnimationTypeChanged",
+                        "read": "duration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 20,
+                        "name": "completeEndDuration",
+                        "notify": "indeterminateAnimationTypeChanged",
+                        "read": "completeEndDuration",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "qreal",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 21,
+                        "name": "indeterminateAnimationType",
+                        "notify": "indeterminateAnimationTypeChanged",
+                        "read": "indeterminateAnimationType",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "IndeterminateAnimationType",
+                        "user": false,
+                        "write": "setIndeterminateAnimationType"
+                    }
+                ],
+                "qualifiedClassName": "caelestia::internal::CircularIndicatorManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 50,
+                        "name": "startFractionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 51,
+                        "name": "endFractionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 52,
+                        "name": "rotationChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 53,
+                        "name": "progressChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 54,
+                        "name": "completeEndProgressChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 55,
+                        "name": "indeterminateAnimationTypeChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "circularindicatormanager.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Creatable",
+                        "value": "false"
+                    },
+                    {
+                        "name": "QML.UncreatableReason",
+                        "value": "HyprKeyboard instances can only be retrieved from a HyprDevices"
+                    }
+                ],
+                "className": "HyprKeyboard",
+                "lineNumber": 10,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 15,
+                        "name": "lastIpcObject",
+                        "notify": "lastIpcObjectChanged",
+                        "read": "lastIpcObject",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantHash",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 16,
+                        "name": "address",
+                        "notify": "addressChanged",
+                        "read": "address",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 17,
+                        "name": "name",
+                        "notify": "nameChanged",
+                        "read": "name",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 18,
+                        "name": "layout",
+                        "notify": "layoutChanged",
+                        "read": "layout",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 19,
+                        "name": "activeKeymap",
+                        "notify": "activeKeymapChanged",
+                        "read": "activeKeymap",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 20,
+                        "name": "capsLock",
+                        "notify": "capsLockChanged",
+                        "read": "capsLock",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 21,
+                        "name": "numLock",
+                        "notify": "numLockChanged",
+                        "read": "numLock",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 22,
+                        "name": "main",
+                        "notify": "mainChanged",
+                        "read": "main",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::internal::hypr::HyprKeyboard",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 39,
+                        "name": "lastIpcObjectChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 40,
+                        "name": "addressChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 41,
+                        "name": "nameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 42,
+                        "name": "layoutChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 43,
+                        "name": "activeKeymapChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 44,
+                        "name": "capsLockChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 45,
+                        "name": "numLockChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 46,
+                        "name": "mainChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            },
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    },
+                    {
+                        "name": "QML.Creatable",
+                        "value": "false"
+                    },
+                    {
+                        "name": "QML.UncreatableReason",
+                        "value": "HyprDevices instances can only be retrieved from a HyprExtras"
+                    }
+                ],
+                "className": "HyprDevices",
+                "lineNumber": 52,
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 57,
+                        "name": "keyboards",
+                        "notify": "keyboardsChanged",
+                        "read": "keyboards",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QQmlListProperty<caelestia::internal::hypr::HyprKeyboard>",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::internal::hypr::HyprDevices",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 68,
+                        "name": "keyboardsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "hyprdevices.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "HyprExtras",
+                "lineNumber": 10,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 23,
+                        "name": "message",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "messages",
+                                "type": "QStringList"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 24,
+                        "name": "batchMessage",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "options",
+                                "type": "QVariantHash"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 25,
+                        "name": "applyOptions",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 27,
+                        "name": "refreshOptions",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 28,
+                        "name": "refreshDevices",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 14,
+                        "name": "options",
+                        "notify": "optionsChanged",
+                        "read": "options",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantHash",
+                        "user": false
+                    },
+                    {
+                        "constant": true,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 15,
+                        "name": "devices",
+                        "read": "devices",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "caelestia::internal::hypr::HyprDevices*",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "caelestia::internal::hypr::HyprExtras",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 31,
+                        "name": "optionsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "hyprextras.hpp",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "LogindManager",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "caelestia::internal::LogindManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 16,
+                        "name": "aboutToSleep",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 17,
+                        "name": "resumed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 18,
+                        "name": "lockRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 19,
+                        "name": "unlockRequested",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "sleep",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 22,
+                        "name": "handlePrepareForSleep",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 5,
+                        "lineNumber": 23,
+                        "name": "handleLockRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 6,
+                        "lineNumber": 24,
+                        "name": "handleUnlockRequested",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "logindmanager.hpp",
+        "outputRevision": 69
+    }
+]
